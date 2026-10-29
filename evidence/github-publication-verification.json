@@ -1,0 +1,17 @@
+{
+  "repository": "Leed131/paypilot-dz5",
+  "visibility": "public",
+  "verified_snapshot_commit": "78b5a714c09e77ad338043445df2c06b92500c81",
+  "snapshot_files": 176,
+  "snapshot_files_matching_final_package": 176,
+  "comparison": "Git blob SHA-1 of exact local bytes against each recursive remote tree entry",
+  "forecast_commit": "3b328119b14a47ef87abae32178f26b8a32dab2e",
+  "history_chain": [
+    "78b5a714c09e77ad338043445df2c06b92500c81",
+    "91dc3a3aef35064e6f56188accc6dc4205f4d043",
+    "3b328119b14a47ef87abae32178f26b8a32dab2e",
+    "d6e0d570dc19f2949747ff7860456253953a7e98"
+  ],
+  "model_calls_for_publication_check": 0,
+  "scope": "Verified uploaded homework snapshot before this documentation-only status update; not a production security certification"
+}
