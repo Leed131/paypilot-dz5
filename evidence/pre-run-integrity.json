@@ -1,0 +1,10 @@
+{
+  "status": "passed",
+  "source_archive": "paypilot-dz5-pre-run.zip",
+  "forecast_bytes_unchanged": true,
+  "dataset_bytes_unchanged": true,
+  "runner_files_unchanged": 8,
+  "lab_files_unchanged": 82,
+  "source_set_hash": "3ab944aa12e8",
+  "scope": "byte comparison with the package created before the homework model runs"
+}

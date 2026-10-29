@@ -1,0 +1,4 @@
+3b328119b14a47ef87abae32178f26b8a32dab2e
+d6e0d570dc19f2949747ff7860456253953a7e98
+2026-10-29T20:57:39+01:00
+Record HW5 forecast before security model runs

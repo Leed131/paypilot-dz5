@@ -1,0 +1,200 @@
+INFO:     192.168.65.1:35857 - "PUT /api/_test/summarize_after HTTP/1.1" 200 OK
+INFO:     192.168.65.1:59172 - "POST /chat HTTP/1.1" 200 OK
+INFO:     192.168.65.1:53961 - "POST /chat HTTP/1.1" 200 OK
+INFO:     192.168.65.1:32586 - "POST /chat HTTP/1.1" 200 OK
+INFO:     192.168.65.1:61958 - "POST /chat HTTP/1.1" 200 OK
+INFO:     192.168.65.1:23927 - "GET /api/_test/traces/95222ef927984c72 HTTP/1.1" 200 OK
+INFO:     192.168.65.1:49503 - "GET /api/_test/traces/c540237b08a943e5 HTTP/1.1" 200 OK
+INFO:     192.168.65.1:23858 - "GET /api/_test/traces/a0a39332ce0a4b17 HTTP/1.1" 200 OK
+INFO:     192.168.65.1:43361 - "GET /api/_test/traces/98bc19deea194f41 HTTP/1.1" 200 OK
+INFO:     192.168.65.1:57685 - "POST /api/_test/reset HTTP/1.1" 200 OK
+INFO:     192.168.65.1:23608 - "PUT /api/_test/summarize_after HTTP/1.1" 200 OK
+INFO:     192.168.65.1:45181 - "POST /chat HTTP/1.1" 200 OK
+INFO:     192.168.65.1:39786 - "POST /chat HTTP/1.1" 200 OK
+INFO:     192.168.65.1:61445 - "POST /chat HTTP/1.1" 200 OK
+INFO:     192.168.65.1:49129 - "POST /chat HTTP/1.1" 200 OK
+INFO:     192.168.65.1:29215 - "GET /api/_test/traces/101dea4f9ca34ae2 HTTP/1.1" 200 OK
+INFO:     192.168.65.1:22055 - "GET /api/_test/traces/9c6573105e8f4357 HTTP/1.1" 200 OK
+INFO:     192.168.65.1:59039 - "GET /api/_test/traces/8ecb468f2ffa4ba7 HTTP/1.1" 200 OK
+INFO:     192.168.65.1:64989 - "GET /api/_test/traces/2a864428567749a0 HTTP/1.1" 200 OK
+INFO:     192.168.65.1:49583 - "POST /api/_test/reset HTTP/1.1" 200 OK
+INFO:     192.168.65.1:24115 - "PUT /api/_test/summarize_after HTTP/1.1" 200 OK
+INFO:     192.168.65.1:18459 - "POST /chat HTTP/1.1" 200 OK
+INFO:     192.168.65.1:65026 - "POST /chat HTTP/1.1" 200 OK
+INFO:     192.168.65.1:52028 - "POST /chat HTTP/1.1" 200 OK
+INFO:     192.168.65.1:17532 - "POST /chat HTTP/1.1" 200 OK
+INFO:     192.168.65.1:27676 - "GET /api/_test/traces/0ee9d1fff31e4788 HTTP/1.1" 200 OK
+INFO:     192.168.65.1:59435 - "GET /api/_test/traces/0f12611d293e4028 HTTP/1.1" 200 OK
+INFO:     192.168.65.1:61394 - "GET /api/_test/traces/f90ce092b2d64540 HTTP/1.1" 200 OK
+INFO:     192.168.65.1:47745 - "GET /api/_test/traces/3613587292bf40ba HTTP/1.1" 200 OK
+INFO:     192.168.65.1:49282 - "POST /api/_test/reset HTTP/1.1" 200 OK
+INFO:     192.168.65.1:59320 - "PUT /api/_test/summarize_after HTTP/1.1" 200 OK
+INFO:     192.168.65.1:21721 - "POST /chat HTTP/1.1" 200 OK
+INFO:     192.168.65.1:37994 - "POST /chat HTTP/1.1" 200 OK
+INFO:     192.168.65.1:35278 - "POST /chat HTTP/1.1" 200 OK
+INFO:     192.168.65.1:46063 - "POST /chat HTTP/1.1" 200 OK
+INFO:     192.168.65.1:51641 - "GET /api/_test/traces/b963ce9198724c1d HTTP/1.1" 200 OK
+INFO:     192.168.65.1:30338 - "GET /api/_test/traces/7d91200acec24e7b HTTP/1.1" 200 OK
+INFO:     192.168.65.1:45031 - "GET /api/_test/traces/6d9d3934b57b4d6b HTTP/1.1" 200 OK
+INFO:     192.168.65.1:38640 - "GET /api/_test/traces/742cbf414e414d51 HTTP/1.1" 200 OK
+INFO:     192.168.65.1:45710 - "POST /api/_test/reset HTTP/1.1" 200 OK
+INFO:     192.168.65.1:21698 - "PUT /api/_test/summarize_after HTTP/1.1" 200 OK
+INFO:     192.168.65.1:56616 - "POST /chat HTTP/1.1" 200 OK
+INFO:     192.168.65.1:32168 - "POST /chat HTTP/1.1" 200 OK
+INFO:     192.168.65.1:22757 - "POST /chat HTTP/1.1" 200 OK
+INFO:     192.168.65.1:48289 - "POST /chat HTTP/1.1" 200 OK
+INFO:     192.168.65.1:63165 - "GET /api/_test/traces/eeeda19aeb564f26 HTTP/1.1" 200 OK
+INFO:     192.168.65.1:29574 - "GET /api/_test/traces/0cde89cc227a4c25 HTTP/1.1" 200 OK
+INFO:     192.168.65.1:39635 - "GET /api/_test/traces/64ac628630b94442 HTTP/1.1" 200 OK
+INFO:     192.168.65.1:19732 - "GET /api/_test/traces/b487a86176a44ec6 HTTP/1.1" 200 OK
+INFO:     192.168.65.1:27292 - "POST /api/_test/reset HTTP/1.1" 200 OK
+INFO:     192.168.65.1:31619 - "PUT /api/_test/summarize_after HTTP/1.1" 200 OK
+INFO:     192.168.65.1:40479 - "POST /chat HTTP/1.1" 500 Internal Server Error
+ERROR:    Exception in ASGI application
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/site-packages/httpx/_transports/default.py", line 101, in map_httpcore_exceptions
+    yield
+  File "/usr/local/lib/python3.12/site-packages/httpx/_transports/default.py", line 250, in handle_request
+    resp = self._pool.handle_request(req)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/httpcore/_sync/connection_pool.py", line 256, in handle_request
+    raise exc from None
+  File "/usr/local/lib/python3.12/site-packages/httpcore/_sync/connection_pool.py", line 236, in handle_request
+    response = connection.handle_request(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/httpcore/_sync/connection.py", line 103, in handle_request
+    return self._connection.handle_request(request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/httpcore/_sync/http11.py", line 136, in handle_request
+    raise exc
+  File "/usr/local/lib/python3.12/site-packages/httpcore/_sync/http11.py", line 106, in handle_request
+    ) = self._receive_response_headers(**kwargs)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/httpcore/_sync/http11.py", line 177, in _receive_response_headers
+    event = self._receive_event(timeout=timeout)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/httpcore/_sync/http11.py", line 231, in _receive_event
+    raise RemoteProtocolError(msg)
+httpcore.RemoteProtocolError: Server disconnected without sending a response.
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/site-packages/uvicorn/protocols/http/httptools_impl.py", line 422, in run_asgi
+    result = await app(  # type: ignore[func-returns-value]
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/uvicorn/middleware/proxy_headers.py", line 63, in __call__
+    return await self.app(scope, receive, send)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/fastapi/applications.py", line 1221, in __call__
+    await self._native_telemetry(
+  File "/usr/local/lib/python3.12/site-packages/fastapi/telemetry/_asgi.py", line 429, in __call__
+    await app(
+  File "/usr/local/lib/python3.12/site-packages/starlette/applications.py", line 96, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/usr/local/lib/python3.12/site-packages/starlette/middleware/errors.py", line 186, in __call__
+    raise exc
+  File "/usr/local/lib/python3.12/site-packages/starlette/middleware/errors.py", line 164, in __call__
+    await self.app(scope, receive, _send)
+  File "/usr/local/lib/python3.12/site-packages/fastapi/telemetry/_asgi.py", line 151, in __call__
+    await self.app(scope, receive, send)
+  File "/usr/local/lib/python3.12/site-packages/starlette/middleware/base.py", line 203, in __call__
+    response = await self.dispatch_func(request, call_next)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/stand/app/main.py", line 56, in request_settings
+    return await call_next(request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/starlette/middleware/base.py", line 179, in call_next
+    raise app_exc from app_exc.__cause__ or app_exc.__context__
+  File "/usr/local/lib/python3.12/site-packages/starlette/middleware/base.py", line 149, in coro
+    await self.app(scope, receive_or_disconnect, send_no_error)
+  File "/usr/local/lib/python3.12/site-packages/starlette/middleware/exceptions.py", line 63, in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+  File "/usr/local/lib/python3.12/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "/usr/local/lib/python3.12/site-packages/starlette/_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "/usr/local/lib/python3.12/site-packages/fastapi/middleware/asyncexitstack.py", line 18, in __call__
+    await self.app(scope, receive, send)
+  File "/usr/local/lib/python3.12/site-packages/starlette/routing.py", line 676, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/usr/local/lib/python3.12/site-packages/fastapi/routing.py", line 2809, in app
+    await route.handle(scope, receive, send)
+  File "/usr/local/lib/python3.12/site-packages/fastapi/routing.py", line 1328, in handle
+    await super().handle(scope, receive, send)
+  File "/usr/local/lib/python3.12/site-packages/starlette/routing.py", line 282, in handle
+    await self.app(scope, receive, send)
+  File "/usr/local/lib/python3.12/site-packages/fastapi/routing.py", line 166, in app
+    await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+  File "/usr/local/lib/python3.12/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "/usr/local/lib/python3.12/site-packages/starlette/_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "/usr/local/lib/python3.12/site-packages/fastapi/routing.py", line 152, in app
+    response = await f(request)
+               ^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/fastapi/routing.py", line 745, in app
+    raw_response = await run_endpoint_function(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/fastapi/routing.py", line 374, in run_endpoint_function
+    return await run_in_threadpool(
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/starlette/concurrency.py", line 34, in run_in_threadpool
+    return await anyio.to_thread.run_sync(func)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/anyio/to_thread.py", line 65, in run_sync
+    return await get_async_backend().run_sync_in_worker_thread(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/anyio/_backends/_asyncio.py", line 2706, in run_sync_in_worker_thread
+    return await future
+           ^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/anyio/_backends/_asyncio.py", line 1100, in run
+    result = context.run(func, *args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/fastapi/telemetry/_api.py", line 244, in _run_sync_endpoint
+    return function(**arguments)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/stand/app/main.py", line 140, in chat
+    return loop.run_turn(body.session_id, body.message, customer)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/stand/app/agent/loop.py", line 79, in run_turn
+    return _run_turn(sid, state, user_message)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/stand/app/agent/loop.py", line 117, in _run_turn
+    resp = provider.complete(system, _messages_for_model(state),
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/stand/app/agent/providers/base.py", line 35, in complete
+    resp = self._inner.complete(system, messages, tools)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/stand/app/agent/providers/openai_provider.py", line 65, in complete
+    resp = httpx.post(self.api_url, json=payload, timeout=self.timeout,
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/httpx/_api.py", line 304, in post
+    return request(
+           ^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/httpx/_api.py", line 109, in request
+    return client.request(
+           ^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/httpx/_client.py", line 825, in request
+    return self.send(request, auth=auth, follow_redirects=follow_redirects)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/httpx/_client.py", line 914, in send
+    response = self._send_handling_auth(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/httpx/_client.py", line 942, in _send_handling_auth
+    response = self._send_handling_redirects(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/httpx/_client.py", line 979, in _send_handling_redirects
+    response = self._send_single_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/httpx/_client.py", line 1014, in _send_single_request
+    response = transport.handle_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/httpx/_transports/default.py", line 249, in handle_request
+    with map_httpcore_exceptions():
+         ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/contextlib.py", line 158, in __exit__
+    self.gen.throw(value)
+  File "/usr/local/lib/python3.12/site-packages/httpx/_transports/default.py", line 118, in map_httpcore_exceptions
+    raise mapped_exc(message) from exc
+httpx.RemoteProtocolError: Server disconnected without sending a response.

@@ -34,7 +34,7 @@
     "human_oracle_pct": 14.3,
     "severity_filled_pct": 100.0
   },
-  "model_run_completed": false,
+  "model_run_completed": true,
   "cases": 7,
   "agent_turns_per_profile": 26,
   "agent_turns_both_profiles": 52,
@@ -43,5 +43,10 @@
   "negative_invariant_checks": 4,
   "single_turn_cases": 6,
   "true_multi_turn_cases": 1,
-  "loader_multi_turn_counter_note": "The unchanged loader counts every case with turns, including one-turn dialogs."
+  "loader_multi_turn_counter_note": "The unchanged loader counts every case with turns, including one-turn dialogs.",
+  "validation_stage": "final_after_recorded_model_runs",
+  "actual_attempted_agent_turns": 53,
+  "actual_full_trace_files": 52,
+  "clean_transport_errors": 1,
+  "clean_recovery_runs": 1
 }
