@@ -1,0 +1,23 @@
+services:
+  eval:
+    image: python:3.12-slim
+    working_dir: /course/solutions/evals
+    entrypoint: ["python", "cli.py"]
+    command: []
+    environment:
+      SET: ${SET:-l06_security}
+      GATE: ""
+      CASE: ""
+      REPEAT: ""
+      SUMMARIZE_AFTER: ""
+      TRACES: ""
+      JUDGE_MODEL: ""
+      PYTHONDONTWRITEBYTECODE: "1"
+      SERVICE_URL: ${EVAL_STAND_URL:-http://host.docker.internal:8000}
+    volumes:
+      - ./evals:/course/solutions/evals:ro
+      - .:/course/homework:ro
+      - ./reports:/course/solutions/evals/reports
+      - ${STAND_DIR:-../paypilot-stand-shared}/app:/course/app:ro
+    extra_hosts:
+      - host.docker.internal:host-gateway

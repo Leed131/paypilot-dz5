@@ -1,0 +1,16 @@
+{
+  "repository": "alex-pancho/paypilot-l06-eval",
+  "commit": "3521b4610f3bdb0ec1be4c511fb2d38c179e5a93",
+  "blobs": {
+    "loader.py": "2d504f6d36ad32cd7e607fbdbc6ba6714b92d4d7",
+    "assertions.py": "a3cf06fc8a83e19259beb9eab234833c8799a2c0",
+    "runner.py": "f549b0e932571a8ba60580a9544c86ad0bda92f3",
+    "stand.py": "2a919a731a27520081062947e602bf8ad444f6e9",
+    "cli.py": "02e496feabcab735405ffa0355740e4e6e8e5632",
+    "validate.py": "40c47a69a119b4cd8a5a59b227df80c9771fafde",
+    "console.py": "24796b9570a97eb3631821debc977391b52becbc",
+    "judge.py": "cd0e89703173706849a072a37e618fc5377f75e1"
+  },
+  "files_modified": false,
+  "note": "The upstream repository has no Makefile at this commit; this homework supplies a wrapper and report mounts."
+}

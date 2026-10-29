@@ -1,0 +1,38 @@
+{
+  "status": "passed",
+  "set_hash": "0df464e11a1c",
+  "source_set_hash": "d4bfe36ae622",
+  "runner_commit": "3521b4610f3bdb0ec1be4c511fb2d38c179e5a93",
+  "coverage": {
+    "cases": 2,
+    "multi_turn": 2,
+    "layers": {
+      "generation": 2
+    },
+    "oracles": {
+      "corpus": 2
+    },
+    "sources": {
+      "red team": 2
+    },
+    "severities": {
+      "critical": 2
+    },
+    "ladder_levels": [
+      4
+    ],
+    "gates": {
+      "daily": 1,
+      "release": 1
+    },
+    "human_oracle_pct": 0.0,
+    "severity_filled_pct": 100.0
+  },
+  "source_blobs": {
+    "loader.py": "2d504f6d36ad32cd7e607fbdbc6ba6714b92d4d7",
+    "assertions.py": "a3cf06fc8a83e19259beb9eab234833c8799a2c0",
+    "l06.jsonl": "771dbc5e97b80787f49d3644569fccb43e96c5a5"
+  },
+  "model_run_under_new_hash": false,
+  "evaluation_route": "offline replay of original SEC-305 and SEC-306 traces; no new model calls"
+}

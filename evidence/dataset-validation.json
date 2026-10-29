@@ -1,0 +1,47 @@
+{
+  "status": "passed",
+  "set_hash": "3ab944aa12e8",
+  "coverage": {
+    "cases": 7,
+    "multi_turn": 7,
+    "layers": {
+      "action": 2,
+      "generation": 5
+    },
+    "oracles": {
+      "corpus": 5,
+      "engine": 1,
+      "human": 1
+    },
+    "sources": {
+      "red team": 7
+    },
+    "severities": {
+      "critical": 2,
+      "high": 2,
+      "medium": 3
+    },
+    "ladder_levels": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "gates": {
+      "daily": 6,
+      "release": 1
+    },
+    "human_oracle_pct": 14.3,
+    "severity_filled_pct": 100.0
+  },
+  "model_run_completed": false,
+  "cases": 7,
+  "agent_turns_per_profile": 26,
+  "agent_turns_both_profiles": 52,
+  "daily_agent_turns": 6,
+  "release_agent_turns": 20,
+  "negative_invariant_checks": 4,
+  "single_turn_cases": 6,
+  "true_multi_turn_cases": 1,
+  "loader_multi_turn_counter_note": "The unchanged loader counts every case with turns, including one-turn dialogs."
+}
