@@ -2,5 +2,6 @@
   "pages": 2,
   "sections": 8,
   "visual_review": "both rendered pages inspected; no clipping or overlap",
-  "source": "security-red-teaming-log.md"
+  "source": "security-red-teaming-log.md",
+  "revision": "mentor-followup-20261030"
 }

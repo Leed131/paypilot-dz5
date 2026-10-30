@@ -98,7 +98,10 @@ def audit():
             combined = runner.evaluate(cases[c['id']], actual_runs if
                                       cases[c['id']]['additional_metadata']['assertion'] == 'dialog' else actual_runs[0]['turns'])
             assert combined.passed == c['verdict']['passed']
-    actual_files = set((BASE / 'reports/traces').glob('*/*.json'))
+    # Audit only the baseline report timestamps. Later experimental series
+    # have their own strict audit and must not be pooled into this baseline.
+    actual_files = {p for stamp in REPORTS
+                    for p in (BASE / 'reports/traces' / stamp).glob('*.json')}
     assert actual_files == expected_files
     assert len(rows) == 52 and len(sessions) == 22 and len(errors) == 1
     assert len(replay) == 22
